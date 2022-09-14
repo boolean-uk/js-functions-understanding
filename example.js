@@ -1,10 +1,14 @@
-function myFunction(num1) {
-
-  return num1 * 10
-
-  return -100
-}
-
-const result = myFunction(5)
-
-console.log(result)
+function myFunction(a) {
+    let b = 20
+    
+    console.log("a:", a)
+    console.log("b:", b)
+    console.log("c:", c)
+  }
+  
+  let a = 1
+  let b = 2
+  let c = 3
+  
+  myFunction(100)
+  

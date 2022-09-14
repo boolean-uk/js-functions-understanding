@@ -336,3 +336,126 @@ const result = myFunction(5)
 The first return runs, so the result is going to be 5 multiplied by 10 = 50.
 
 Result - I was correct, the code did what I expected.
+
+# 19
+
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2, num3) {
+  return num2
+}
+
+const result = myFunction(5, 10, 15)
+```
+we passed 3 arguments to the myFunction command and we returned the second value(10).
+
+Result - I was correct, the code did what I expected.
+
+# 20
+
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2, num3) {
+  return num1 + num3
+}
+
+const num1 = 20
+const num2 = 200
+const num3 = 1000
+
+const result = myFunction(5, 10, num3, 15)
+```
+we passed 3 values to myFunction and returned num1(5) and num3(1000) and added them. result 1005
+
+Result - I was correct, the code did what I expected.
+
+# 21
+
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  const result = num1+num2
+  return result
+}
+
+const result = myFunction(10, 20)
+myFunction(100, 2)
+```
+second myFunction call is irrelevant. Added num1 and num2 to get 30.
+
+Result - I was correct, the code did what I expected.
+
+# 22
+
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  let result = num1+num2
+  return result
+}
+
+let result = 0
+myFunction(100, 2)
+```
+result is only changed in the scope of the function because it was declared again using 'let' and not in the scope of the programme. Result stays 0
+
+Result - I was correct, the code did what I expected.
+
+# 23
+
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  result = num1+num2
+}
+
+let result = 0
+myFunction(100, 2)
+```
+result is changed in scope of function. Answer = 102
+
+Result - I was correct, the code did what I expected.
+
+# 24
+
+What will be the value of `result` when this code runs? Why?
+
+```javascript
+function myFunction(num1, num2) {
+  const result = num1+num2
+  return 100
+}
+
+const result = myFunction(5, 2)
+```
+return command is 100. previous values irrelevant due to this. answer is 100
+
+Result - I was correct, the code did what I expected.
+
+# 25
+
+What will be the printed out by the console log statements when this code runs? Why?
+
+```javascript
+function myFunction(a) {
+  let b = 20
+  
+  console.log("a:", a)
+  console.log("b:", b)
+  console.log("c:", c)
+}
+
+let a = 1
+let b = 2
+let c = 3
+
+myFunction(100)
+```
+a is the argument when we call the function meaning its value is 100. bb is defined inside the function as 20. c is defined outside the function as 3.
+
+Result - I was correct, the code did what I expected.
