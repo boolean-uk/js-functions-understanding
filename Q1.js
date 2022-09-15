@@ -1,3 +1,8 @@
+//I wan a function that takes 2 numbers and adds them.
+//INPUT: two numbers, num1 and num2
+//OUTPUT: a new number which is  the result of the calculation
+//in this case, examples are num1 = 5: num2 = 5: result = 10
+
 function myFunction(num1, num2) {
     return num1+num2
     
