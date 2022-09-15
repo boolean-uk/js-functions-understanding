@@ -39,7 +39,7 @@ Your instructor will demonstrate this process for the first question.
 
 ### Q1
 What is the value of `result` after calling this function? Why?
-
+// num1 and num2 will add together. this is because the return function has +
 ```javascript
 function myFunction(num1, num2) {
   return num1+num2
@@ -50,7 +50,7 @@ const result = myFunction(5,5)
 
 ### Q2
 What is the value of `result` after calling this function? Why?
-
+it will be the same as the previous as you specify it in the {}
 ```javascript
 function myFunction(num1, num2) {
   num1+num2
@@ -61,7 +61,7 @@ const result = myFunction(5,5)
 
 ### Q3
 What is the value of `num` at the end of the program? Why?
-
+it will be 9 because num is equal to 10 and only when the function is called will it evaluate the delcared num=10
 ```javascript
 function myFunction(num) {
   return num-1
@@ -74,7 +74,7 @@ num = myFunction(num)
 
 ### Q4
 What is the value of `add` and `num` at the end of the program? Why?
-
+num will be 9 and add will add be 9 aswell as it will = to my function which after operating will be 9
 ```javascript
 function myFunction(num) {
   return num-1
@@ -88,7 +88,7 @@ add = myFunction(add)
 
 ### Q5
 What value will be logged inside the function call? Why?
-
+2 because nothing aside from that is in the {}
 ```javascript
 function myFunction(num, num1) {
   console.log(num1)
@@ -114,7 +114,6 @@ let num1 = 2
 
 myFunction(num1, num)
 ```
-
 ### Q7
 What will the value of counter be at the end of this program? Why?
 
