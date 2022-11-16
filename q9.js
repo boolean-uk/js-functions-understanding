@@ -14,3 +14,4 @@ myFunction(num3, num1)
 
 
 // Function is calling the variable that is already defined before the function is called
+
