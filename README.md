@@ -150,7 +150,7 @@ What will be logged out on the console when this code rus? Why?
 
 ```javascript
 function myFunction(num1, num2) {
-  console.log(num3)
+  console.log(num4)
 }
 
 const num1 = 10
